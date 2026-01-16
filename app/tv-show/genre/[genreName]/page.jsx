@@ -40,17 +40,17 @@ export async function generateMetadata({ params }) {
 
   const title = genre?.name || 'Unknown';
   
-  const pageUrl = `https://lk21-watch.vercel.app/tv-show/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg';
+  const pageUrl = `https://movies2watch-netflix.vercel.app/tv-show/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/55043659861_b148496eb6_b.jpg';
 
   return {
-    title: `LK21 - ${title} TV Series`,
-    description: `Find and watch the best ${title} TV series for free on LK21.`,
+    title: `Movies2Watch - ${title} TV Series`,
+    description: `Find and watch the best ${title} TV series for free on Movies2Watch.`,
     openGraph: {
-      title: `LK21 - ${title} TV Series`,
-      description: `Find and watch the best ${title} TV series for free on LK21.`,
+      title: `Movies2Watch - ${title} TV Series`,
+      description: `Find and watch the best ${title} TV series for free on Movies2Watch.`,
       url: pageUrl,
-      siteName: 'LK21',
+      siteName: 'Movies2Watch',
       images: [
         {
           url: imageUrl,
@@ -66,8 +66,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `LK21 - ${title} TV Series`,
-      description: `Find and watch the best ${title} TV series for free on LK21.`,
+      title: `Movies2Watch - ${title} TV Series`,
+      description: `Find and watch the best ${title} TV series for free on Movies2Watch.`,
       images: [imageUrl],
     },
     other: {

@@ -1,8 +1,8 @@
 // app/sitemap.js - VERSI DIPERBAIKI DAN LENGKAP
-const BASE_URL = 'https://lk21-watch.vercel.app';
+const BASE_URL = 'https://movies2watch-netflix.vercel.app';
 
 export default async function sitemap() {
-  console.log('🎬 Generating dynamic sitemap for LK21...');
+  console.log('🎬 Generating dynamic sitemap for Movies2Watch...');
   
   try {
     const [staticUrls, dynamicUrls] = await Promise.all([

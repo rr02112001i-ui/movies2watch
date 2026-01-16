@@ -54,12 +54,12 @@ export async function generateMetadata({ params }) {
 
   if (genreSlugMap.has(processedSlug)) {
     const genre = genreSlugMap.get(processedSlug);
-    return { title: `LK21 - ${genre.name} TV Series` };
+    return { title: `Movies2Watch - ${genre.name} TV Series` };
   }
 
   if (CATEGORIES.includes(slug)) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
-    return { title: `LK21 - ${title} TV Series` };
+    return { title: `Movies2Watch - ${title} TV Series` };
   }
 
   // Logika untuk mengambil data TV show untuk metadata detail
@@ -98,13 +98,13 @@ export async function generateMetadata({ params }) {
   const socialImageAlt = `${tvShowData.name} poster`;
 
   return {
-    title: `LK21 - ${tvShowData.name}`,
+    title: `Movies2Watch - ${tvShowData.name}`,
     description: tvShowData.overview,
     openGraph: {
       title: tvShowData.name,
       description: tvShowData.overview,
-      url: `https://lk21-watch.vercel.app/tv-show/${slug}`,
-      siteName: 'LK21',
+      url: `https://movies2watch-netflix.vercel.app/tv-show/${slug}`,
+      siteName: 'Movies2Watch',
       images: [{ url: socialImage, width: 1200, height: 630, alt: socialImageAlt }],
       locale: 'en_US',
       type: 'website',

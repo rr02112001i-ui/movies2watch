@@ -11,11 +11,11 @@ export const metadata = {
   openGraph: {
     title: 'Movies2Watch | Complete Movie & TV Series Database',
     description: 'Your ultimate destination for movies, TV series, actor profiles, and streaming information. Explore genres, yearly archives, and top rankings.',
-    url: 'https://Movies2Watch-watch.vercel.app',
+    url: 'https://movies2watch-netflix.vercel.app',
     siteName: 'Movies2Watch',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg',
+        url: 'https://live.staticflickr.com/65535/55043659861_b148496eb6_b.jpg',
         width: 1200,
         height: 630,
         alt: 'Movies2Watch - Complete Movie Database',
@@ -30,7 +30,7 @@ export const metadata = {
     creator: '@WatchStream123',
     title: 'Movies2Watch | Complete Movie & TV Series Database',
     description: 'Explore 10,000+ movies, 5,000+ TV series, actor profiles, and streaming guides on Movies2Watch.',
-    images: ['https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/55043659861_b148496eb6_b.jpg'],
   },
   // Tambahkan tag meta eksplisit untuk Facebook
   other: {
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
 	  <head>
         {/* Tag verifikasi Google Search Console */}
-        <meta name="google-site-verification" content="TRTCvA_QqXkUM0PnLWGy2GVhJjJsoZzU7D5kUmp8A0Q" />
+        <meta name="google-site-verification" content="YitZSYQQEZi6XSKwUWlxhDGT3vJpgWubbnIXZfS8xIA" />
         {/* Schema.org markup untuk Movie Database */}
         <script
           type="application/ld+json"
@@ -53,10 +53,10 @@ export default function RootLayout({ children }) {
               "@type": "MovieDatabase",
               "name": "Movies2Watch",
               "description": "Complete movie and TV series database with streaming information",
-              "url": "https://Movies2Watch-watch.vercel.app",
-              "logo": "https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg",
+              "url": "https://movies2watch-netflix.vercel.app",
+              "logo": "https://live.staticflickr.com/65535/55043659861_b148496eb6_b.jpg",
               "sameAs": [
-                "https://Movies2Watch-watch.vercel.app"
+                "https://movies2watch-netflix.vercel.app"
               ]
             })
           }}
@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_banner_navbar"
-                  scriptKey="3969e67c81a228c49622cb8efea1dfa5"
+                  scriptKey="c02d8fc26f721491e6f4c80a0212cdc6"
                   height={90}
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
               {/* Tempatkan div Native Banner di sini, sebelum Footer */}
-              <div id="container-ad1ee1816ddebc11a35ac98d10fb7142"></div>
+              <div id="container-3e70a842bc19a8f377401e5146461b69"></div>
               <Footer />
             </footer>
           </div>

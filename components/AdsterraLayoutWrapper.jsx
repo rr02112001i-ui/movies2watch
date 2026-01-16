@@ -15,16 +15,16 @@ export default function AdsterraLayoutWrapper({ children }) {
       const scripts = [
         {
           id: 'adsterra-native-banner',
-          src: '//fundingfashioned.com/ad1ee1816ddebc11a35ac98d10fb7142/invoke.js',
+          src: '//fundingfashioned.com/3e70a842bc19a8f377401e5146461b69/invoke.js',
           attributes: { 'data-cfasync': 'false' }
         },
         {
           id: 'adsterra-popunder', 
-          src: '//fundingfashioned.com/63/c7/a0/63c7a0cc6ec7a01e41fd76f689d74a39.js'
+          src: '//fundingfashioned.com/e7/a1/c6/e7a1c6460d6b72895ba5c25ad65ec4e2.js'
         },
         {
           id: 'adsterra-social-bar',
-          src: '//fundingfashioned.com/0e/dd/aa/0eddaacfb0675163e55b188fa496a91c.js'
+          src: '//fundingfashioned.com/52/62/46/526246064cec0e3511e7120cb93157a0.js'
         }
       ];
 

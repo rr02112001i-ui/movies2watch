@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
   const genre = genres.find(g => g.name.toLowerCase().replace(/\s/g, '-') === genreName);
   const title = genre?.name || 'Unknown';
 
-  const pageUrl = `https://lk21-watch.vercel.app/movie/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg';
+  const pageUrl = `https://movies2watch-netflix.vercel.app/movie/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/55043659861_b148496eb6_b.jpg';
 
   return {
-    title: `LK21 - ${title} Movies`,
-    description: `Find and watch the best ${title} movies for free on LK21.`,
+    title: `Movies2Watch - ${title} Movies`,
+    description: `Find and watch the best ${title} movies for free on Movies2Watch.`,
     openGraph: {
-      title: `LK21 - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on LK21.`,
+      title: `Movies2Watch - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on Movies2Watch.`,
       url: pageUrl,
-      siteName: 'LK21',
+      siteName: 'Movies2Watch',
       images: [
         {
           url: imageUrl,
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `LK21 - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on LK21.`,
+      title: `Movies2Watch - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on Movies2Watch.`,
       images: [imageUrl],
     },
     other: {
